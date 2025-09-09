@@ -1,9 +1,12 @@
-# Name of the Project
+# MediMap
 
 ## About 
-<P>Term: Spring 2025
-<P>Team: Team Name
-<P>Students
+<P>Term: Fall 2025
+<P>Team: Team Sky
+<P>Students : Adla Nitish
+              Bandi Mallikarjuna
+              Dasari Venkata Sai Aditya Nischal 
+              Garapati Kranthi Swapna
 
 #️⃣ **Keywords**:  Section 0010, MLOps, Python, Xcode, Raspberry Pi Pico, iOS Application
 
