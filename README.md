@@ -3,10 +3,10 @@
 ## About 
 <P>Term: Fall 2025
 <P>Team: Team Sky
-<P>Students : Adla Nitish
-              Bandi Mallikarjuna
-              Dasari Venkata Sai Aditya Nischal 
-              Garapati Kranthi Swapna
+<P>Students : Adla Nitish,
+              Bandi Mallikarjuna,
+              Dasari Venkata Sai Aditya Nischal, 
+              Garapati Kranthi Swapna.
 
 #️⃣ **Keywords**:  
 Large Language Model (LLM), Natural Language Processing (NLP), Query Understanding, Intent Extraction, Entity Recognition, Conversational AI, Multi-Criteria Optimization,Ranking Algorithm, Gradient Boosting.
@@ -27,16 +27,36 @@ This delay causes unnecessary stress and can push back important diagnoses.MediM
 4.  Get the best match: It sorts the results to show you the top options first.
 5.  Book it: It gives you a way to schedule your appointment.
 
-### 📋 Functional Requirements
+### 📋 Functional Requirements: MediMap
+1. User Query & Interaction
+      1.1: The system shall provide a text input field for users to enter a natural language query.
+      1.2: The system shall provide a button to submit the query and initiate the search.
+      1.3: The system shall allow users to grant permission to access their location for "near me" searches.
+      1.4: The system shall display a clear and concise summary of the parsed query back to the user for confirmation (e.g., "Finding: Cheapest MRI near Seattle with Premera insurance").
 
-This project will produce software or system that does following things :
+2. Data Processing & Search
+    2.1: The system shall parse the user's query to accurately identify the required medical test (e.g., MRI, CT Scan).
+    2.2: The system shall parse the user's query to identify the location parameter (e.g., city, zip code, "current location").
+    2.3: The system shall parse the user's query to identify the priority criterion (e.g., "cheapest," "closest," "soonest").
+    2.4: The system shall parse the user's query to identify a specified insurance provider.
+    2.5: The system shall search the internal database for facilities that match the test type and location.
+    2.6: The system shall filter results based on insurance acceptance and availability.
 
-<P>Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus nunc vulputate ornare dignissim faucibus accumsan per; pretium ante. Fringilla aptent posuere conubia ut montes urna a quis. Ligula mattis venenatis platea venenatis, scelerisque porttitor habitant orci etiam. Sodales pharetra libero sit sed libero cras nostra suscipit. Quam massa vivamus; orci turpis rhoncus vestibulum ullamcorper habitasse. Magnis feugiat conubia lacinia, mauris ac lacinia eget conubia aliquet. Laoreet viverra aptent dictum nascetur arcu velit maximus ridiculus ligula. </P>
+3. Results & Ranking
+    3.1: The system shall display search results in a ranked list, ordered by the user's specified priority.
+    3.2: The system shall display each result with at least: Facility Name, Address, Distance, Price Estimate, Insurance Match, and Next Available Appointment.
+    3.3: The system shall provide a visual map view showing the geographic location of all matching facilities.
+    3.4: The system shall allow users to sort the results by different criteria (Price, Distance, Availability) after the initial search.
+    3.5: The system shall allow users to select and compare up to 3 facilities side-by-side in a table.
 
-- lorem ipsum
-- lorem ipsum
-- lorem ipsum
-- lorem ipsum
+4. Booking & Actions
+      4.1: For each result, the system shall provide a clear call-to-action button (e.g., "Book Now", "See More Times").
+      4.2: The booking action shall redirect the user to the facility's official booking page OR display a simulated booking form within the application.
+      4.3: The system shall allow users to share a facility's details via email or a generated link.
+
+5. System Management (Admin)
+      5.1: Administrators shall be able to add, edit, and deactivate facilities in the database.
+      5.2: Administrators shall be able to trigger a manual refresh of data from external APIs (e.g., to update availability).
 
 ###  ✅ Non functional Requirements
 
