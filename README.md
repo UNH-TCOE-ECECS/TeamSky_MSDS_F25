@@ -19,9 +19,13 @@ MediMap is an innovative Large Language Model (LLM)-powered healthcare navigator
 Trying to book a medical scan like an MRI is frustrating. No one shows prices upfront, it's unclear what insurance covers, and finding an available appointment takes hours of phone calls.
 This delay causes unnecessary stress and can push back important diagnoses.MediMap was created to solve this. We use AI to understand your simple question, like "find a cheap MRI near me with my insurance," and instantly find you the best options. It turns a complicated, stressful process into one that takes seconds.
 
-## High Level Requirement
-<P>Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus nunc vulputate ornare dignissim faucibus accumsan per; pretium ante. Fringilla aptent posuere conubia ut montes urna a quis. Ligula mattis venenatis platea venenatis, scelerisque porttitor habitant orci etiam. Sodales pharetra libero sit sed libero cras nostra suscipit. Quam massa vivamus; orci turpis rhoncus vestibulum ullamcorper habitasse. Magnis feugiat conubia lacinia, mauris ac lacinia eget conubia aliquet. Laoreet viverra aptent dictum nascetur arcu velit maximus ridiculus ligula. </P>
-<P>Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus nunc vulputate ornare dignissim faucibus accumsan per; pretium ante. Fringilla aptent posuere conubia ut montes urna a quis. Ligula mattis venenatis platea venenatis, scelerisque porttitor habitant orci etiam. Sodales pharetra libero sit sed libero cras nostra suscipit. Quam massa vivamus; orci turpis rhoncus vestibulum ullamcorper habitasse. Magnis feugiat conubia lacinia, mauris ac lacinia eget conubia aliquet. Laoreet viverra aptent dictum nascetur arcu velit maximus ridiculus ligula. </P>
+## High Level Requirement: MediMap
+
+1.  Talk to it: You can ask for what you need in your own words.
+2.  See prices & insurance: It shows you the cost and what insurance is accepted.
+3.  Find appointments: It finds places with available times.
+4.  Get the best match: It sorts the results to show you the top options first.
+5.  Book it: It gives you a way to schedule your appointment.
 
 ### 📋 Functional Requirements
 
