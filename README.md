@@ -16,8 +16,8 @@ Large Language Model (LLM), Natural Language Processing (NLP), Query Understandi
 MediMap is an innovative Large Language Model (LLM)-powered healthcare navigator designed to simplify the process of scheduling diagnostic tests. The system addresses key patient challenges, including lack of price transparency, unclear insurance coverage, and difficulty finding available appointments. By allowing users to submit natural-language queries, MediMap intelligently parses requests, retrieves data from facility databases, and employs a multi-criteria ranking algorithm to generate personalized recommendations. The expected outcome is a functional prototype that reduces patient effort, improves cost and insurance transparency, and provides a scalable foundation for future expansion into broader healthcare services.
 
 ### 🫧 Background
-
-Story of why and how this project was concieved with details of challanges and effects.
+Trying to book a medical scan like an MRI is frustrating. No one shows prices upfront, it's unclear what insurance covers, and finding an available appointment takes hours of phone calls.
+This delay causes unnecessary stress and can push back important diagnoses.MediMap was created to solve this. We use AI to understand your simple question, like "find a cheap MRI near me with my insurance," and instantly find you the best options. It turns a complicated, stressful process into one that takes seconds.
 
 ## High Level Requirement
 <P>Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus nunc vulputate ornare dignissim faucibus accumsan per; pretium ante. Fringilla aptent posuere conubia ut montes urna a quis. Ligula mattis venenatis platea venenatis, scelerisque porttitor habitant orci etiam. Sodales pharetra libero sit sed libero cras nostra suscipit. Quam massa vivamus; orci turpis rhoncus vestibulum ullamcorper habitasse. Magnis feugiat conubia lacinia, mauris ac lacinia eget conubia aliquet. Laoreet viverra aptent dictum nascetur arcu velit maximus ridiculus ligula. </P>
