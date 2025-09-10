@@ -8,12 +8,10 @@
               Dasari Venkata Sai Aditya Nischal 
               Garapati Kranthi Swapna
 
-#️⃣ **Keywords**:  Section 0010, MLOps, Python, Xcode, Raspberry Pi Pico, iOS Application
+#️⃣ **Keywords**:  
+Large Language Model (LLM), Natural Language Processing (NLP), Query Understanding, Intent Extraction, Entity Recognition, Conversational AI, Multi-Criteria Optimization,Ranking Algorithm, Gradient Boosting.
 
 ## 💻 Project Abstract:  
-Based on the provided project proposal, here is a concise and professional abstract:
-
-**Abstract**
 
 MediMap is an innovative Large Language Model (LLM)-powered healthcare navigator designed to simplify the process of scheduling diagnostic tests. The system addresses key patient challenges, including lack of price transparency, unclear insurance coverage, and difficulty finding available appointments. By allowing users to submit natural-language queries, MediMap intelligently parses requests, retrieves data from facility databases, and employs a multi-criteria ranking algorithm to generate personalized recommendations. The expected outcome is a functional prototype that reduces patient effort, improves cost and insurance transparency, and provides a scalable foundation for future expansion into broader healthcare services.
 
