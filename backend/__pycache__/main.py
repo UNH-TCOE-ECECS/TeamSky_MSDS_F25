@@ -34,7 +34,8 @@ async def process_transcript(request: Request):
       "location": "..."
     }}
     """
-
+ 
+ 
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
