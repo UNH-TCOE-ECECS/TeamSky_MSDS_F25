@@ -29,10 +29,10 @@ This delay causes unnecessary stress and can push back important diagnoses.MediM
 
 ### 📋 Functional Requirements: MediMap
 1. User Query & Interaction
-      1.1: The system shall provide a text input field for users to enter a natural language query.\n
-      1.2: The system shall provide a button to submit the query and initiate the search.\n
-      1.3: The system shall allow users to grant permission to access their location for "near me" searches.\n
-      1.4: The system shall display a clear and concise summary of the parsed query back to the user for confirmation (e.g., "Finding: Cheapest MRI near Seattle with Premera insurance").\n
+      1.1: The system shall provide a text input field for users to enter a natural language query. \n
+      1.2: The system shall provide a button to submit the query and initiate the search. \n
+      1.3: The system shall allow users to grant permission to access their location for "near me" searches. \n
+      1.4: The system shall display a clear and concise summary of the parsed query back to the user for confirmation (e.g., "Finding: Cheapest MRI near Seattle with Premera insurance"). \n
 
 2. Data Processing & Search
     2.1: The system shall parse the user's query to accurately identify the required medical test (e.g., MRI, CT Scan).\n
