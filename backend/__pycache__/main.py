@@ -21,7 +21,7 @@ def read_root():
 @app.post("/process")
 async def process_transcript(request: Request):
     data = await request.json()
-    transcript = data.get("transcript", "I need a dermatologist next Friday in New Haven")
+    transcript = data.get("transcript", "")
 
     prompt = f"""
     Extract the medical specialty, date, and location from this request:
@@ -35,7 +35,7 @@ async def process_transcript(request: Request):
     }}
     """
  
- 
+
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
