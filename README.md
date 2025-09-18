@@ -105,16 +105,25 @@ This design prioritizes a seamless user experience, robust security for handling
 
 **Goal:** A secure, scalable cloud app that turns voice commands into booked appointments.
 ### 📦 Required Resources
+1. Development Team
+1 Full-Stack Engineer: Frontend (React) & Backend (FastAPI) development.
 
-Linux Development Machine
-Raspberry Pi Pico W
-Mobile Application Development Environment
-IDE/Text Editor
-Project Management (Jira)
-Version Control management (GitHub/Git)
-Database (MYSQL)
-PyTorch
-Jupyter
+1 AI/ML Engineer: LangChain agent design, MCP server development, and LLM integration.
+
+1 DevOps/Cloud Engineer: Cloud infrastructure, CI/CD pipeline, and deployment. (Can be part-time initially)
+
+2. Technology & APIs
+LLM API: OpenAI API key for GPT-4/GPT-3.5 (or Google Gemini).
+
+Speech-to-Text: OpenAI Whisper API key (or Google Speech-to-Text).
+
+Mapping/Providers: Google Maps Places API key.
+
+Calendar Access: Google Calendar API access (or Microsoft Graph API).
+
+Communications: Twilio API account for phone calls & SMS.
+
+Cloud Account: AWS, Google Cloud, or Azure account.
 
 
 ### Project Plan :  
