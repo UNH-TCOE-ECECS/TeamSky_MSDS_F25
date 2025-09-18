@@ -62,11 +62,7 @@ This delay causes unnecessary stress and can push back important diagnoses.MediM
 
 Other minor requirements and considerations like Cloud deployable solution etc.
 
-### ✍🏼 Conceptual Design
-
-Of course. Here is a conceptual design for MediMap based on our previous discussions.
-
-### **Conceptual Design: MediMap**
+### ✍🏼 Conceptual Design: MediMap**
 
 **1. Vision**
 MediMap is an AI-powered agent that automates the entire process of finding and booking medical appointments. It acts as a personal assistant that handles the phone calls, calendar checks, and scheduling logistics based on a simple voice command from the user.
@@ -87,10 +83,27 @@ Unlike simple chatbots, MediMap is an action-taking agent. The user provides a g
 
 This design prioritizes a seamless user experience, robust security for handling sensitive health data, and a modular architecture that allows for easy updates and integration of new tools and services.
 
-### 🛠️ Technical Design
-<P>Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus nunc vulputate ornare dignissim faucibus accumsan per; pretium ante. Fringilla aptent posuere conubia ut montes urna a quis. Ligula mattis venenatis platea venenatis, scelerisque porttitor habitant orci etiam. Sodales pharetra libero sit sed libero cras nostra suscipit. Quam massa vivamus; orci turpis rhoncus vestibulum ullamcorper habitasse. Magnis feugiat conubia lacinia, mauris ac lacinia eget conubia aliquet. Laoreet viverra aptent dictum nascetur arcu velit maximus ridiculus ligula. </P>
-<P>Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus nunc vulputate ornare dignissim faucibus accumsan per; pretium ante. Fringilla aptent posuere conubia ut montes urna a quis. Ligula mattis venenatis platea venenatis, scelerisque porttitor habitant orci etiam. Sodales pharetra libero sit sed libero cras nostra suscipit. Quam massa vivamus; orci turpis rhoncus vestibulum ullamcorper habitasse. Magnis feugiat conubia lacinia, mauris ac lacinia eget conubia aliquet. Laoreet viverra aptent dictum nascetur arcu velit maximus ridiculus ligula. </P>
 
+### **🛠️ Technical Design: MediMap (Short Version)**
+
+**Frontend:** React.js PWA with voice interface.
+
+**Backend:** FastAPI (Python) microservices.
+
+**AI Core:** LangChain Agent using GPT-4, with Tools via MCP.
+
+**Key Tools:**
+-   `search_nearby_doctors` (Google Places API)
+-   `check_my_schedule` (Google Calendar API)
+-   `book_appointment` (Calendar/Twilio API)
+
+**Data:** PostgreSQL database.
+
+**Cloud:** Docker containers on AWS/Kubernetes. Auto-scaling.
+
+**Security:** HIPAA compliant. OAuth 2.0 login. All data encrypted.
+
+**Goal:** A secure, scalable cloud app that turns voice commands into booked appointments.
 ### 📦 Required Resources
 
 Linux Development Machine
